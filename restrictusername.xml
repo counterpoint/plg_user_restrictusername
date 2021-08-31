@@ -81,6 +81,20 @@
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>
+                <field name="allowUscores" type="radio" class="btn-group btn-group-yesno" default="1" showon="useOwnRegex:0"
+                    description="PLG_USER_RESTRICTUSERNAME_ALLOW_USCORES_DESC"
+                    label="PLG_USER_RESTRICTUSERNAME_ALLOW_USCORES_LABEL"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="allowAtsigns" type="radio" class="btn-group btn-group-yesno" default="1" showon="useOwnRegex:0"
+                    description="PLG_USER_RESTRICTUSERNAME_ALLOW_ATSIGNS_DESC"
+                    label="PLG_USER_RESTRICTUSERNAME_ALLOW_ATSIGNS_LABEL"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
                 <field name="allowCyrillic" type="radio" class="btn-group btn-group-yesno" default="0" showon="useOwnRegex:0"
                     description="PLG_USER_RESTRICTUSERNAME_ALLOW_CYRILLIC_DESC"
                     label="PLG_USER_RESTRICTUSERNAME_ALLOW_CYRILLIC_LABEL"

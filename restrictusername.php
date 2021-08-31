@@ -106,6 +106,8 @@ class plgUserRestrictusername extends JPlugin
             'allowNumbers'  => ['\d',  JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_NUMBERS')],
             'allowDots'     => [preg_quote('.'), JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_DOTS')],
             'allowDashes'   => [preg_quote('-'), JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_DASHES')],
+            'allowUscores'  => [preg_quote('_'), JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_UNDERSCORE')],
+            'allowAtsigns'  => [preg_quote('_'), JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_ATSIGN')],
             'allowSymbols'  => [preg_quote($sym), JText::sprintf('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_SYMBOLS', htmlentities($sym))],
             'allowCyrillic' => ['\p{Cyrillic}', JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_CYRILLIC')],
             'allowArabic'   => ['\p{Arabic}', JText::_('PLG_USER_RESTRICTUSERNAME_MAY_CONTAIN_ARABIC')],
